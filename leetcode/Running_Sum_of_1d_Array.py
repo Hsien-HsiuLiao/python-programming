@@ -13,6 +13,9 @@ class Solution(object):
 
         for i in range(len(nums)):
             runningSum[i] = nums[i-1] + nums[i]
+
+        https://www.geeksforgeeks.org/python-lists/ - discusses list time/space complexity
+        
         """
         runningSumList = [nums[0]]
         print(len(nums))
